@@ -39,10 +39,10 @@
             //          ---------------------       --------------------
 
             bindings = <
-&kp V        &kp W           &kp F        &kp P             &kp B          &kp J          &kp L        &kp U        &kp Y            &kp SQT
-&mt LGUI R   &mt LEFT_ALT S  &mt LCTRL T  &mt LEFT_SHIFT H  &kp K          &kp X          &mt LSHFT N  &mt RCTRL A  &mt RIGHT_ALT I  &mt RGUI O
-&mt LSHFT Z  &kp C           &kp G        &kp D             &kp B          &kp BACKSPACE  &kp M        &kp COMMA    &kp PERIOD       &kp BACKSLASH
-                                          &mt RSHFT FSLH    &lt 1 SPACE    &lt 2 E        &lt 1 RET
+			&kp V        &kp W           &kp F        &kp P             &kp B       		&kp J          &kp L        &kp U        &kp Y            &kp SQT
+			&mt LGUI R   &mt LEFT_ALT S  &mt LCTRL T  &mt LEFT_SHIFT H  &kp K   			&kp X          &mt LSHFT N  &mt RCTRL A  &mt RIGHT_ALT I  &mt RGUI O
+			&mt LSHFT Z  &kp C           &kp G        &kp D             &kp B   &kp C_MUTE	&kp BACKSPACE  &kp M        &kp COMMA    &kp PERIOD       &kp BACKSLASH
+                                          &mt RSHFT FSLH    &lt 1 SPACE    						&lt 2 E        &lt 1 RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
